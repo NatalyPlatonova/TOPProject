@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log('Привет, мир')
+            /*Вычислите площадь прямоугольника*/
+        let x1 = 2;
+        let y1 = 3;
+        let x2 = 10;
+        let y2 = 5;
+        let cathetus1 = Math.abs(x1 - x2);
+        let cathetus2 = Math.abs(y1 - y2);
+        console.log(cathetus1 * cathetus2);
+        let a1 = 10;
+        let b1 = 5;
+        let a2 = 2;
+        let b2 = 3;
+        let cathetus3 = Math.abs(a1 - a2);
+        let cathetus4 = Math.abs(b1 - b2);
+        console.log(cathetus3 * cathetus4);
+        let c1 = -5;
+        let d1 = 8;
+        let c2 = 10;
+        let d2 = 5;
+        let cathetus5 = Math.abs(c1 - c2);
+        let cathetus6 = Math.abs(d1 - d2);
+        console.log(cathetus5 * cathetus6);
+        let f1 = 5;
+        let j1 = 8;
+        let f2 = 5;
+        let j2 = 5;
+        let cathetus7 = Math.abs(f1 - f2);
+        let cathetus8 = Math.abs(j1 - j2);
+        console.log(cathetus7 * cathetus8);
+        let h1 = 8;
+        let i1 = 1;
+        let h2 = 5;
+        let i2 = 1;
+        let cathetus9 = Math.abs(h1 - h2);
+        let cathetus10 = Math.abs(i1 - i2);
+        console.log(cathetus9 * cathetus10);
+        /*Вычислите дробные части чисел*/
+    </script>
+</body>
+
+</html>
